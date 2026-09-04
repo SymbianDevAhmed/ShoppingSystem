@@ -81,14 +81,15 @@ Customer
                   │
                   ├── ArrayList<Item>
                   └── ArrayList<Integer>
+
 The project demonstrates relationships between objects using class attributes and ArrayList collections.
 
 ⚙️ Technologies Used
-- ☕ Java
-- 🧱 Object-Oriented Programming (OOP)
-- 📋 ArrayList
-- 💻 IntelliJ IDEA
-- 🔧 Git & GitHub
+    - ☕ Java
+    - 🧱 Object-Oriented Programming (OOP)
+    - 📋 ArrayList
+    - 💻 IntelliJ IDEA
+    - 🔧 Git & GitHub
 
 🧪 Example Output
 Customer: Ahmed
