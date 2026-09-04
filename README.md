@@ -16,16 +16,16 @@ The system allows a customer to own carts and bills, add items with quantities t
 ## 🏗️ Project Structure
 
 ```text
-**ShoppingSystem**
-│
-├── src
-│   ├── Item.java
-│   ├── Cart.java
-│   ├── Bill.java
-│   ├── Customer.java
-│   └── Main.java
-│
+ShoppingSystem/
+├── src/
+│   └── shoppingsystem/
+│       ├── Item.java
+│       ├── Cart.java
+│       ├── Bill.java
+│       ├── Customer.java
+│       └── Main.java
 ├── .gitignore
+├── README.md
 └── ShoppingSystem.iml
 ```
 
