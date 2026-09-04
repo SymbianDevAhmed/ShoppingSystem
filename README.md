@@ -16,7 +16,7 @@ The system allows a customer to own carts and bills, add items with quantities t
 ## 🏗️ Project Structure
 
 ```text
-**`ShoppingSystem`**
+**ShoppingSystem**
 │
 ├── src
 │   ├── Item.java
@@ -27,71 +27,98 @@ The system allows a customer to own carts and bills, add items with quantities t
 │
 ├── .gitignore
 └── ShoppingSystem.iml
+```
 
 ## 🧩 Classes
 
-### 🏷️ **Item**
+### 🏷️ **`Item`**
+
 Represents a product that can be purchased.
-**Attributes:**
-    - name - Product name
-    - price - Product price
-**Main Methods:**
-    - Constructor
-    - Getters and Setters
 
-### 🛒 **Cart**
+**Attributes:**
+
+- `name` - Product name
+- `price` - Product price
+
+**Main Methods:**
+
+- Constructor
+- Getters and Setters
+
+### 🛒 **`Cart`**
+
 Represents a shopping cart that contains items and their quantities.
+
 **Attributes:**
-    - ArrayList<Item> items
-    - ArrayList<Integer> quantities
-**Main Methods:**
-    - addItem()
-    - removeItem()
-    - getTotal()
-    - Getters
 
-### 🧾 **Bill**
+- `ArrayList<Item> items`
+- `ArrayList<Integer> quantities`
+
+**Main Methods:**
+
+- `addItem()`
+- `removeItem()`
+- `getTotal()`
+- Getters
+
+### 🧾 **`Bill`**
+
 Represents a bill generated from a shopping cart.
-**Attribute:**
-    - Cart cart
-**Main Methods:**
-    - getTotalAmount()
-    - getCart()
-    - printBill()
 
-### 👤 **Customer**
+**Attribute:**
+
+- `Cart cart`
+
+**Main Methods:**
+
+- `getTotalAmount()`
+- `getCart()`
+- `printBill()`
+
+### 👤 **`Customer`**
+
 Represents a customer who can own carts and bills.
-**Attribute:**
-    - name
-    - ArrayList<Cart> carts
-    - ArrayList<Bill> bills
-**Main Methods:**
-    - addCart()
-    - addBill()
-    - Getters and Setter
 
-🔗 Relationships Between Classes
+**Attributes:**
+
+- `name`
+- `ArrayList<Cart> carts`
+- `ArrayList<Bill> bills`
+
+**Main Methods:**
+
+- `addCart()`
+- `addBill()`
+- Getters and Setter
+
+## 🔗 Relationships Between Classes
+
+```text
 Customer
-   │
-   ├── ArrayList<Cart>
-   │
-   └── ArrayList<Bill>
-             │
-             └── Cart
-                  │
-                  ├── ArrayList<Item>
-                  └── ArrayList<Integer>
+  │
+  ├── ArrayList<Cart>
+  │
+  └── ArrayList<Bill>
+            │
+            └── Cart
+                 │
+                 ├── ArrayList<Item>
+                 └── ArrayList<Integer>
+```
 
 The project demonstrates relationships between objects using class attributes and ArrayList collections.
 
-⚙️ Technologies Used
-    - ☕ Java
-    - 🧱 Object-Oriented Programming (OOP)
-    - 📋 ArrayList
-    - 💻 IntelliJ IDEA
-    - 🔧 Git & GitHub
+## ⚙️ Technologies Used
 
-🧪 Example Output
+- ☕ Java
+- 🧱 Object-Oriented Programming (OOP)
+- 📋 ArrayList
+- 💻 IntelliJ IDEA
+- 🔧 Git & GitHub
+
+## 🧪 Example Output
+
+```text
 Customer: Ahmed
 Bill
 --------------------
@@ -99,17 +126,21 @@ Laptop | Quantity: 2 | Price: 1000.0 | Total: 2000.0
 Mouse | Quantity: 3 | Price: 50.0 | Total: 150.0
 --------------------
 Total Amount: 2150.0
+```
 
-🎯 Learning Objectives
+## 🎯 Learning Objectives
+
 This project was created to practice:
-    - Classes and Objects
-    - Encapsulation
-    - Constructors
-    - Getters and Setters
-    - ArrayList
-    - Object Relationships
-    - Composition
-    - Methods and Object Interaction
 
-👨‍💻 Author
+- Classes and Objects
+- Encapsulation
+- Constructors
+- Getters and Setters
+- ArrayList
+- Object Relationships
+- Composition
+- Methods and Object Interaction
+
+## 👨‍💻 Author
+
 Ahmed Gaber
