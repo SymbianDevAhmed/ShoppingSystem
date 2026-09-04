@@ -33,42 +33,42 @@ ShoppingSystem
 🏷️ Item
 Represents a product that can be purchased.
 Attributes:
-- name - Product name
-- price - Product price
+    - name - Product name
+    - price - Product price
 Main Methods:
-- Constructor
-- Getters and Setters
+    - Constructor
+    - Getters and Setters
 
 🛒 Cart
 Represents a shopping cart that contains items and their quantities.
 Attributes:
-- ArrayList<Item> items
-- ArrayList<Integer> quantities
+    - ArrayList<Item> items
+    - ArrayList<Integer> quantities
 Main Methods:
-- addItem()
-- removeItem()
-- getTotal()
-- Getters
+    - addItem()
+    - removeItem()
+    - getTotal()
+    - Getters
 
 🧾 Bill
 Represents a bill generated from a shopping cart.
 Attribute:
-- Cart cart
+    - Cart cart
 Main Methods:
-- getTotalAmount()
-- getCart()
-- printBill()
+    - getTotalAmount()
+    - getCart()
+    - printBill()
 
 👤 Customer
 Represents a customer who can own carts and bills.
 Attributes:
-- name
-- ArrayList<Cart> carts
-- ArrayList<Bill> bills
+    - name
+    - ArrayList<Cart> carts
+    - ArrayList<Bill> bills
 Main Methods:
-- addCart()
-- addBill()
-- Getters and Setter
+    - addCart()
+    - addBill()
+    - Getters and Setter
 
 🔗 Relationships Between Classes
 Customer
@@ -101,14 +101,14 @@ Total Amount: 2150.0
 
 🎯 Learning Objectives
 This project was created to practice:
-- Classes and Objects
-- Encapsulation
-- Constructors
-- Getters and Setters
-- ArrayList
-- Object Relationships
-- Composition
-- Methods and Object Interaction
+    - Classes and Objects
+    - Encapsulation
+    - Constructors
+    - Getters and Setters
+    - ArrayList
+    - Object Relationships
+    - Composition
+    - Methods and Object Interaction
 
 👨‍💻 Author
 Ahmed Gaber
