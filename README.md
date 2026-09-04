@@ -16,7 +16,7 @@ The system allows a customer to own carts and bills, add items with quantities t
 ## 🏗️ Project Structure
 
 ```text
-ShoppingSystem
+**`ShoppingSystem`**
 │
 ├── src
 │   ├── Item.java
@@ -28,44 +28,44 @@ ShoppingSystem
 ├── .gitignore
 └── ShoppingSystem.iml
 
-🧩 Classes
+## 🧩 Classes
 
-🏷️ Item
+### 🏷️ **Item**
 Represents a product that can be purchased.
-Attributes:
+**Attributes:**
     - name - Product name
     - price - Product price
-Main Methods:
+**Main Methods:**
     - Constructor
     - Getters and Setters
 
-🛒 Cart
+### 🛒 **Cart**
 Represents a shopping cart that contains items and their quantities.
-Attributes:
+**Attributes:**
     - ArrayList<Item> items
     - ArrayList<Integer> quantities
-Main Methods:
+**Main Methods:**
     - addItem()
     - removeItem()
     - getTotal()
     - Getters
 
-🧾 Bill
+### 🧾 **Bill**
 Represents a bill generated from a shopping cart.
-Attribute:
+**Attribute:**
     - Cart cart
-Main Methods:
+**Main Methods:**
     - getTotalAmount()
     - getCart()
     - printBill()
 
-👤 Customer
+### 👤 **Customer**
 Represents a customer who can own carts and bills.
-Attributes:
+**Attribute:**
     - name
     - ArrayList<Cart> carts
     - ArrayList<Bill> bills
-Main Methods:
+**Main Methods:**
     - addCart()
     - addBill()
     - Getters and Setter
